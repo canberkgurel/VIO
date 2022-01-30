@@ -7,6 +7,7 @@
   
   <!-- Launch bridge -->
   <include file="$(find px4_realsense_bridge)/launch/bridge.launch" >
+    <arg name="ns" value="$(arg ns)" />
   </include>
 
   <!-- Launch MavROS -->
